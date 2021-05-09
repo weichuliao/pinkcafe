@@ -26,11 +26,13 @@ body {
 }
 
 body ::-moz-selection {
-    background: #ecf1ca; 
+    /* background: #ecf1ca;  */
+    background: #F4C3C3;
 }
 
 body ::selection {
-    background: #ecf1ca; 
+    /* background: #ecf1ca;  */
+    background: #F4C3C3;
 }
   
 article, aside, details, figcaption, figure, hgroup, menu, nav, section {
@@ -220,6 +222,10 @@ h4[data-type="index"] {
     padding: 2rem;
 }
 
+.banner-bg {
+    background-color: #F29999;
+}
+
 .counter {
     color: #D67D7D;
 }
@@ -280,6 +286,11 @@ h4[data-type="index"] {
     letter-spacing: 3px;
     padding-top: 150px;
     padding-bottom: 150px;
+}
+
+.about-wrapper .about-left a {
+    text-decoration: underline;
+    color: #707070;
 }
 
 .about-wrapper .about-right img {
@@ -764,4 +775,49 @@ h4[data-type="index"] {
     align-items: center;
     justify-content: center;
     border-top: #e6e6e6 1px solid;
+}
+
+.core-value {
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.core-value-bg {
+    margin-top: 3rem;
+    padding: 3rem;
+    width: 100%;;
+    /* height: 492px; */
+    background: url("./img/newselection.png") no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* position: relative; */
+}
+
+.value-content-bg {
+    background-color: rgba(61,60,64,.6);
+    padding: 1.5rem;
+    color: white;
+}
+
+h2[data-type="core-value"] {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    /* font-family: 'HYQiHei-45S', 'Microsoft YaHei', Helvetica,Hiragino Sans GB; */
+}
+
+h2[data-type="core-value2"] {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #c2c2c2;
+    /* font-family: 'HYQiHei-45S', 'Microsoft YaHei', Helvetica,Hiragino Sans GB; */
+}
+
+.value-content {
+    line-height: 1.5rem;
+}
+
+.core-value img {
+    /* height: 100%; */
+    /* overflow: hidden; */
 }
